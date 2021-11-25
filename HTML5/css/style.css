@@ -1,0 +1,21 @@
+.firstTask{
+   width:29%;
+    border-style: solid double double solid;  
+    margin-left: 20%;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.secondTask{
+    width: 32%;
+    border-style: solid double solid none;
+    margin-left: 18%;
+    padding-right: 10px;
+    font-size: large;
+}
+
+
+.center{
+    text-align: center;
+}
+

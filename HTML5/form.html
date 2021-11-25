@@ -1,0 +1,63 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Event Registration Form</title>
+        <link rel="stylesheet" href="css/styleform.css" />
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="formTitle">
+                <h1>EVENT REGISTRATION FORM</h1>
+            </div>
+        <form action="#">
+            
+
+            <div id="name">
+            <h2 class="name">Name</h2>
+            <input
+                type="text"
+                name="firstname"
+                class="input-field"
+                id="firstName"
+            /> <br>
+            <label for="firstName" class="Lable">First Name</label>
+            <input
+                type="text"
+                name="lastName"
+                class="input-field last"
+                id="lastName"
+            />
+            <label for="lastName" class="Lable lastlable">Last Name</label>
+            </div>
+        <h2 class="name">Company</h2>
+        <input type="text" name="company" class="company" id="company">
+        <h2 class="name">Email</h2>
+        <input type="text" name="email" class="company">
+        <h2 class="name"> Phone </h2>
+        <input type="text" name="areaCode" class="input-field area">
+        <label for="areaCode" class="Lable code">Area Code</label>
+        <input type="text" name="phone" class="input-field phoneNumber">
+        <label for="phone" class="Lable phone">Phone Number</label>
+
+        <h2 class="name">Subject</h2>
+        <select name="subject" class="selection">
+            <option value="" disabled="disabled" selected="selected">Choose Option</option>
+            <option>abc</option>
+            <option>ab</option>
+            <option>a</option>
+        </select>
+        <h4 class="radioText">Are you an existing customer?</h2>
+        <input type="radio" class="radiocheck" name="yes" value="yes" id="yes" />
+        <label for="yes">Yes</label>
+        <input type="radio" class="radiocheck" name="No" value="no" id="no" />
+        <label for="no">No</label>
+        <br />
+        <button class="btn" type="submit">REGISTER</button>
+        </form>
+        </div>
+    </body>
+    </html>
